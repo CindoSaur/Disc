@@ -13,12 +13,14 @@ const PLAYLIST = [
 // ====== ẢNH VÀ LỜI CHÚC BAY LÊN TRONG BẦU TRỜI 360° ======
 // Ảnh: copy vào thư mục "assets" rồi ghi tên file vào đây (thiếu file thì tự bỏ qua).
 const PHOTOS = [
-  "assets/anh1.jpg",
-  "assets/anh2.jpg",
-  "assets/anh3.jpg",
-  "assets/anh4.jpg",
-  "assets/anh5.jpg",
-  "assets/anh6.jpg",
+  "assets/2026081.JPG",
+  "assets/2026082.JPG",
+  "assets/2026083.JPG",
+  "assets/2325290_25.jpg",
+  "assets/lv_0_20261015150341.jpg",
+  "assets/Screenshot 2026-08-19 100917.png",
+  "assets/Screenshot 2026-08-20 173852.png",
+  "assets/Screenshot 2026-10-15 144612.png",
 ];
 // Lời chúc: mỗi dòng nằm trong một đám mây bay lên. Thêm bớt tùy ý.
 const WISHES = [
