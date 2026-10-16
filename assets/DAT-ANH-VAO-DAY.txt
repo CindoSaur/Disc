@@ -1,0 +1,2 @@
+Bo anh (jpg/png/webp) vao thu muc nay, sau do khai bao ten file trong PHOTOS o dau disc.js.
+Nen resize moi anh ve khoang 600-800px de tai nhanh.

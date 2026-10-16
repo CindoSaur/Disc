@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1d0a24">
+  <title>Đĩa nhạc của chúng mình</title>
+  <link rel="stylesheet" href="fonts/fonts.css">
+  <link rel="stylesheet" href="disc.css">
+</head>
+<body>
+  <div class="world" id="world" aria-hidden="true"></div>
+  <p class="tip" id="tip">Kéo sang trái, phải để nhìn quanh 360°</p>
+
+  <main class="stage" id="stage">
+    <div class="deck">
+      <div class="glow"></div>
+      <button class="disc" id="disc" aria-label="Phát hoặc tạm dừng nhạc"><i><span>♥</span></i></button>
+      <div class="sheen"></div>
+      <div class="arm"></div>
+    </div>
+
+    <p class="hint" id="hint" hidden>Chạm vào đĩa để nghe nhạc</p>
+
+    <section class="info">
+      <span class="count" id="count"></span>
+      <h1 id="song"></h1>
+    </section>
+
+    <section class="panel">
+      <div class="seekrow">
+        <span id="cur">0:00</span>
+        <input type="range" id="seek" min="0" max="1000" value="0" aria-label="Tua bài hát">
+        <span id="dur">0:00</span>
+      </div>
+
+      <nav class="controls">
+        <button id="prev" aria-label="Bài trước">
+          <svg viewBox="0 0 24 24"><path d="M6 5h2.2v14H6zM19 5v14L9.5 12z"/></svg>
+        </button>
+        <button id="toggle" class="main" aria-label="Phát hoặc tạm dừng">
+          <svg class="i-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          <svg class="i-pause" viewBox="0 0 24 24"><path d="M7 5h3.6v14H7zM13.4 5H17v14h-3.6z"/></svg>
+        </button>
+        <button id="next" aria-label="Bài tiếp theo">
+          <svg viewBox="0 0 24 24"><path d="M15.8 5H18v14h-2.2zM5 5v14l9.5-7z"/></svg>
+        </button>
+      </nav>
+
+      <div class="volrow">
+        <button id="mute" aria-label="Bật hoặc tắt tiếng">
+          <svg viewBox="0 0 24 24"><path d="M3 10v4h4l5 4V6L7 10z"/><path class="waves" d="M15.5 8.5a5 5 0 0 1 0 7M18 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+        <input type="range" id="volume" min="0" max="100" value="80" aria-label="Âm lượng">
+        <span id="volpct">80%</span>
+      </div>
+    </section>
+  </main>
+
+  <script src="disc.js"></script>
+</body>
+</html>
