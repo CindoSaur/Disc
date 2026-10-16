@@ -1,6 +1,7 @@
 // ====== DANH SÁCH NHẠC (phát đúng thứ tự dưới đây, hết bài cuối thì quay lại bài đầu) ======
 // Thêm bài: copy file .mp3 vào thư mục "music" rồi thêm 1 dòng { title, file }.
 const PLAYLIST = [
+  { title: "BINGO",    file: "music/Bingo ( Piano Ver. ) - Nguyên ft. Mc Wiz & Boyzed.mp3" },
   { title: "Chờ chút...",    file: "music/chờ chút... CONGB _ TINH HÀ SAY HI _ OFFICIAL VISUALIZER.mp3" },
   { title: "Yêu",    file: "music/Lyrics __ YÊU 5 - Rhymastic.mp3" },
   { title: "Inlove",    file: "music/inlove.mp3" },
