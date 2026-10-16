@@ -17,10 +17,19 @@ const PHOTOS = [
   "assets/2026082.JPG",
   "assets/2026083.JPG",
   "assets/2325290_25.jpg",
-  "assets/lv_0_20261015150341.jpg",
-  "assets/Screenshot 2026-08-19 100917.png",
   "assets/Screenshot 2026-08-20 173852.png",
   "assets/Screenshot 2026-10-15 144612.png",
+  "assets/20260818003517_1.jpg",
+  "assets/20260821231716_1.jpg",
+  "assets/20260830131707_1.jpg",
+  "assets/20260901200340_1.jpg",
+  "assets/20260901201801_1.jpg",
+  "assets/20260904214021_1.jpg",
+  "assets/d649119d-e7ca-4e80-ab8e-54ff19f3a2b0.jpg",
+  "assets/Messenger_creation_992FFBEC-4995-499A-BE7A-0905CBEAB0B2.jpg",
+  "assets/Screenshot_20260918_062435_TikTok.jpg",
+  "assets/Screenshot_20260918_215808_TikTok.jpg",
+  "assets/Screenshot_20260918_215836_TikTok.jpg",
 ];
 // Lời chúc: mỗi dòng nằm trong một đám mây bay lên. Thêm bớt tùy ý.
 const WISHES = [
